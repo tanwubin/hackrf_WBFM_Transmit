@@ -20,6 +20,10 @@ apt-get install libav-tools
 
 avconv -i mm_didu.mp3  -acodec pcm_s16le  -ac 2 -ar 44100 -vol 200  MM_didu.wav
 
+or
+
+ffmpeg -i mm_didu.mp3  -acodec pcm_s16le  -ac 2 -ar 44100 -vol 200  MM_didu.wav
+
 ```
 
 # Compliation
